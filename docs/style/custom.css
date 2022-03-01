@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		background: #216380;
+	}
+	
+	a {
+		color: #2BCC49;
+	}
+		#page-wrapper
+		{
+			background-image:url(../images/background.jpg);
+			background-repeat:no-repeat;
+			background-position:top center;
+			background-size:contain;	
+		}
+		.logo_clickable
+		{
+			background-image:url(images/logo.png);
+			background-repeat:no-repeat;
+			background-size:contain;
+		}
+
+		#header
+		{
+			height:120px;
+		}
+		#newlogo
+		{
+			position:absolute;
+			top: -3em;
+			left:1%;
+			right:0;	
+			width:50%;
+			margin:auto;
+			
+			text-decoration: none;
+			display: block;
+			font-size: 1.3em;
+			font-weight: 900;
+			color: #FFF;
+			outline: 0;
+		}
+		.logo_image
+		{
+			width:50px;
+			height:60px;	
+		}
+		header .byline {
+			color: rgba(255, 255, 255, 1);
+		}
+		
+		.wrapper {
+		color: rgba(255, 255, 255, 1);
+		
+			}
+		#nav {/*19%*/
+			left: 28%;
+		}
+		
+		@media screen and (max-width: 840px)
+{
+	.bigtext
+	{
+    font-size: 1.3em;
+	}
+}
+
+.bigtext {
+    font-size: 2.1em;
+}
+
+@media screen and (max-width: 840px)
+ {
+	 .bigtext
+	 {
+    font-size: 1.5em;
+    text-align: center;
+	 }
+}
+/*
+Adobe Color: Double Split - #CC3F57
+Dark: #CC3F57;
+Hovers: #CA959E;
+Pastles: #CC788D
+*/
+.boldme
+{
+	font-weight:bold;
+}
+	a.style1 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style1:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+.wrapper-style1 {
+		background: #FF835C;
+	}
+
+		.wrapper-style1 .container {
+			background: #CC6949;
+		}
+
+	a.style2 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style2:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+
+	.wrapper-style2 {
+		background: #AFFF69;
+	}
+
+		.wrapper-style2 .container {
+			background: #8CCC54;
+		}
+		
+			a.style3 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style3:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+		
+		.wrapper-style3 {
+		background: #FF4E6C;
+	}
+
+		.wrapper-style3 .container {
+			background: #CC3F57;
+		}
+		
+			a.style4 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style4:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+		
+		.wrapper-style4 {
+		background: #36FFCE;
+	}
+
+		.wrapper-style4 .container {
+			background: #2BCCA4;
+		}
+		
+			a.style5 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style5:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+		
+	.wrapper-style5 {
+		background: #EE42FF;
+	}
+
+		.wrapper-style5 .container {
+			background: #BE35CC;
+		}
+		
+			a.style6 {
+		color: #000;
+		text-decoration:none;
+	}
+		a.style6:hover {
+		color: #000;
+		text-decoration:underline;
+	}
+	
+	.wrapper-style6 {
+		background: #CCAE54;
+	}
+
+		.wrapper-style6 .container {
+			background: #AB9246;
+		}
+		
+	.wrapper-grey {
+		background: #9a9b9b;
+	}
+
+		.wrapper-grey .container {
+			background: #626262;
+		}
+		
+/* Navigation */
+		/* Selected */
+		#nav > ul > li.current > a.home {
+			background: #CC6949;
+		}
+		#nav > ul > li.current > a.explore {
+			background: #8CCC54;
+		}
+		#nav > ul > li.current > a.projects {
+			background: #CC3F57;
+		}
+		#nav > ul > li.current > a.events {
+			background: #2BCCA4;
+		}
+		#nav > ul > li.current > a.faq {
+			background: #BE35CC;
+		}
+		#nav > ul > li.current > a.guides {
+			background: #CCAE54;
+		}
+		
+		#nav > ul > li.current > a.map {
+			background: #CCAE54;
+		}
+		
+		
+		/* Hover */
+		#nav > ul > li.home > a:hover {
+			color:#C9A99F;
+		}
+		#nav > ul > li.explore > a:hover {
+			
+			color:#B8C9A9;
+		}
+		
+		#nav > ul > li.projects > a:hover {
+			color:#CA959E;
+		}
+		
+		#nav > ul > li.events > a:hover {
+			color:#81C9B8;
+		}
+		
+		#nav > ul > li.faq > a:hover {
+			color:#C48BC9;
+		}
+		
+		#nav > ul > li.guides > a:hover {
+			color:#CCAE54;
+		}
+		
+		#nav > ul > li.map > a:hover {
+			color:#CCAE54;
+		}
+		
+		#nav > ul > li.discord > a:hover {
+			color:#7289DA;
+		}
+		
+		/* Drop Down */
+		.dropotron {
+			background: #2BCCA4;
+		}
+		.dropotron-level-0:before {
+			border-bottom: solid 0.8em #2BCCA4;
+		}
+		
+		@media screen and (max-width: 1280px) {
+			#newlogo
+			{
+				position:absolute;
+				top: -1.5em;
+				left:0;
+				right:0;	
+				width:50%;
+				margin:auto;
+			}
+		}
+		@media screen and (max-width: 840px)
+			{
+			#newlogo
+			{
+				position:absolute;
+				top: -2em;
+				left:0;
+				right:0;	
+				width:50%;
+				margin:auto;
+			}
+			.logo_image
+			{
+				width:60px;
+				height:70px;	
+			}
+			#header
+			{
+				height:60px;
+			}
+			
+		#page-wrapper
+		{
+			background-image:none;
+			background-repeat:no-repeat;
+			background-position:top center;
+			background-size:contain;	
+		}
+			}
